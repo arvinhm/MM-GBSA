@@ -184,7 +184,7 @@ def main():
     """
     Main function to parse MM-GBSA log and create CSV files
     """
-    log_file = "per_residue_main.log"
+    log_file = "enhanced_flexibility.log"
     
     # Check if log file exists
     if not os.path.exists(log_file):
